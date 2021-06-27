@@ -49,18 +49,20 @@
   transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
 }
 
-.card-reveal:hover .card-body {
+.card-reveal .card-body {
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 
 .card-reveal .card-body .card-title {
+  bottom: 5%;
+  position: absolute;
   font-size: .75rem;
-  margin: 0;
   text-transform: uppercase;
   font-weight: bolder;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 768px) {
